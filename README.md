@@ -29,6 +29,4 @@ Create an account or connect yourseld with these identifiers :
 - Login : `admin@admin.com`
 - Password : `admin`
 
-Enjoy your navigation !
 
-Love xoxo
