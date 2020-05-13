@@ -1,0 +1,30 @@
+
+  <div class="row text-center justify-content-center mt-3">
+
+    <h3 class="col-12"><%="#{@event.title}" %></h3>
+    <p class="col-12">
+      <small class="text-muted">Description</small> <br/> <%= @event.description %>
+    </p>
+    <p class="col-12">
+      <small class="text-muted">Participants</small> <br/> <%= @event.users.count %>
+    </p>
+    <p class="col-12">
+      <small class="text-muted">Organisateur</small><br/>
+      <%= @event.author.first_name %>
+
+    </p>
+    <p class="col-12">
+      <small class="text-muted">Début de l'évènement</small> <br/> <%= @event.start_date %>
+    </p>
+    <p class="col-12">
+      <small class="text-muted">Durée de l'évènement</small> <br/> <%= @event.duration %>
+    </p>
+    <p class="col-12">
+      <small class="text-muted">Lieu</small> <br/> <%= @event.location %>
+    </p>
+    <p class="col-12">
+      <small class="text-muted">Prix</small> <br/> <%= "#{@event.price} €" %>
+    </p>
+    <%= link_to "Réservez votre place", events_subscribe_to_event_path(@event), class:"btn btn-info" %>
+<!--    changer en create_attendance_path    -->
+  </div>
