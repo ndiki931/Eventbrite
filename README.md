@@ -2,9 +2,6 @@
 
 ## Project : Event Brite
 
-### Authors :
-- [Julio]()
-- [Bento]()
 #### [Click here to access the website on Heroku]()
 
 ### Specs
